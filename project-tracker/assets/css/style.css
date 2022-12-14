@@ -1,0 +1,36 @@
+:root {
+    --space-grey: #33393f;
+    --light-purple: #e866ec;
+    --white: white;
+    --dark-purple:#8B008B;
+    --thistle: #D8BFD8;
+  }
+  
+/* set default font to 10px */
+html {
+  font-size: 62.5%;
+}
+  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  line-height: 1.5;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.header,
+  .custom-modal-header,
+  .custom-card-header,
+  .btn-custom {
+    background-color: var(--space-grey);
+    color: var(--white);
+  }
